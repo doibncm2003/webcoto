@@ -1,0 +1,140 @@
+.body-services{
+    width: auto;
+    height: auto;
+    background-color:#fefbf3;
+    display: flex;
+    flex-direction: column;
+}
+.body-background{
+    height: 600px;
+    width: 600px;
+    background-color: #ededed;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.content{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top{
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+}
+#bot{
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
+}
+.box{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -320px;
+}
+.style-box{
+    float: left;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.style-box-type-1{
+    background-color: white;
+    float: left;
+    width: auto;
+    height: 180px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.style-box-type-2{
+    background-color: white;
+    float: left;
+    width: 350px;
+    height: 180px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+}
+.style-box-type-3{
+    background-color: white;
+    float: right;
+    width: auto;
+    height: 180px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.style-picture{
+    width: auto;
+    height: 180px;
+    float: left;
+}
+.style-picture img{
+    margin-bottom: 100px;
+    height: 180px;
+}
+.style-box-icon{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.style-box-top{
+    margin-left: 25px;
+    margin-top: auto;
+    width: 300px;
+    height: 60px;
+}
+.style-box-bot{
+    width: 300px;
+    height: 60px;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+.style-box-icon img{
+    height: 51px;
+}
+.style-box-text{
+    float: left;
+    width: 240px;
+    height: 51px;
+    display: flex; /* chuyển thành flex để căn chỉnh ở giữa */
+    align-items: center; /* căn theo chiều doc  */
+}
+.style-seemore{
+    width: auto;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.style-seemore input{
+    background-color: #d2542f;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.style-seemore input:hover{
+    background-color: #021239;
+    color: #d2542f;
+}

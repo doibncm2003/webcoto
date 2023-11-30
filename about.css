@@ -1,0 +1,58 @@
+.body-about{
+    background-color: #fefbf3;
+    width: auto;
+    height: 600px;
+    display: flex; /* chuyển thành flex để căn chỉnh ở giữa */
+    justify-content: center; /* căn theo chiều ngang */
+    align-items: center; /*  theo chiều dọc */
+}
+.text{
+    float: left;
+    width: 600px;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+#topcontent{
+    font-size: 30px;
+    color: #021239;
+    margin-top: auto;
+}
+#botcontent{
+    margin-top: 30px;
+}
+.right{
+    float: left;
+    width: auto;
+    height: 500px;
+}
+#aboutmore{
+    width: 150px;
+    height: 40px;
+    background-color: #d2542f;
+    margin-top: 40px;
+    margin-bottom: auto;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+#aboutmore:hover{
+    background-color: #021239;
+    color: #d2542f;
+}
+.right img{
+    margin-top: 10px;
+    height: 450px;
+}
+.bgr{   
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #ededed;
+    margin-top: -450px;
+    margin-left: 50px;
+}

@@ -1,0 +1,102 @@
+#menu{
+    float: left;
+    width: 1000px;
+    height: 90px;
+}
+#menu ul{
+    list-style-type:none ; /* bỏ dấu đầuu dòng*/
+    text-align: center; /*căn lề giữa cho chữ*/
+    float: left;
+}
+#menu ul li{
+    display: inline-block; /*hiển thị menu dạng ngangg*/
+    padding: 5px;
+    color: white;
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    position: relative;
+    margin-top: 15px;
+}
+#menu ul li:hover{
+    color: #d2542f;
+}
+.dinhdang{
+    width: auto;
+    height: auto;
+}
+.banner{
+    width: auto;
+    height: 90px;
+    background-color: #021239;
+}
+#find{
+    float: left;
+    width: 89px;
+    height: 90px;
+    display: flex; /* chuyển thành flex để căn chỉnh ở giữa */
+    justify-content: center; /* theo chiều dọc */
+    align-items: center; /* căn theo chiều ngang  */
+}
+#logo{
+    float: left;
+    width: 250px;
+    height: 90px;
+    display: flex; /* chuyển thành flex để căn chỉnh ở giữa */
+    justify-content: center; /* theo chiều dọc */
+    align-items: center; /* căn theo chiều ngang  */
+}
+#logo img{
+    width: 89px;
+    height: 70px;
+    margin-top: 100px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #d2542f;
+}
+/* het phan banner */
+.contact{
+    padding: 0px;
+    background-color: #021239;
+    width: auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon{
+    float: left;
+    width: 65px;
+    height: 54px;
+    margin-left: 30px;
+}
+#icon img{
+    height: 60px;
+    width: auto;
+}
+#text-cpr{
+    color: white;
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.copyright{
+    padding-top: 0px;
+    background-color: #d2542f;
+    width: auto;
+    height: 45px;
+}
+#textcpr{
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}

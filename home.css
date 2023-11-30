@@ -1,0 +1,120 @@
+.body-home{
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background: url(images/banner-bg.png) ;
+    background-size: 100%;
+    background-color: #fefbf3;
+    display: flex;
+    flex-direction: row;
+}
+.body-home-content{
+    width: 800px;
+    height: 800p;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body-home-content p{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+#button-1{
+    width: 150px;
+    height: 40px;
+    background-color: #d2542f;
+    margin-top: 40px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: -100px;
+    margin-left: 80px;
+}
+#button-1:hover{
+    background-color: #021239;
+    color: #d2542f;
+}
+#button-2{
+    width: 200px;
+    height: 40px;
+    background-color: #d2542f;
+    margin-top: 40px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: -100px;
+}
+#button-2:hover{
+    background-color: #021239;
+    color: #d2542f;
+}
+.body-home-next-prev{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.border-type-1{
+    width: 60px;
+    height: 60px;
+    background-color: #d2542f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+.border-type-2{
+    width: 60px;
+    height: 60px;
+    background-color: #021239;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.border img{
+    height: 20px;
+}
+.border-type-1:hover{
+    background-color: #021239;
+}
+.border-type-2:hover{
+    background-color: #d2542f;
+}
+.home-end{
+    width: auto;
+    height: 110px;
+    background-color: #d2542f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#button-end{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 150px;
+}
+#button-end:hover{
+    background-color: #021239;
+    color: white;
+}
